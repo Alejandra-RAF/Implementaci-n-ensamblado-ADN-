@@ -1,4 +1,3 @@
-Ensamblaje de Secuencias de ADN mediante el Grafo de De Bruijn
 Este proyecto implementa un algoritmo para construir un grafo de De Bruijn a partir de fragmentos de ADN (k-mers), determinar si existe un camino o ciclo Euleriano, y reconstruir la secuencia original de ADN. 
 El programa esta definido por 5 funciones:
   1.	build_de_bruijn_graph(kmers): toma como entrada una lista de k-mers y construye un grafo donde los nodos representan los prefijos y sufijos de los k-mers, y las aristas indican las transiciones entre ellos.
